@@ -6,7 +6,7 @@ class Sprite():
     ymomentum = 0
     slot = 0
     attributes = {}
-    def __init__(self, name):
+    def __init__(self, name='newsprite'):
         self.name = name
         print('Sprite ',name,' created')
     def up(self, l = 1):
